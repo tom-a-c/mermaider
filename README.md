@@ -1,2 +1,15 @@
-# mermaidy
-GitHub Action to update Mermaid diagrams in READMEs
+# Mermaider
+
+badges
+ 
+description
+  
+logo
+  
+# Usage
+  
+# Request A Feature
+  
+# Report An Issue
+
+# Questions?
