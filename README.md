@@ -1,4 +1,4 @@
-# Mermaider
+# :ocean: Mermaider
 
 [![build](https://circleci.com/gh/tom-a-c/mermaider.svg?style=shield)](https://circleci.com/gh/circleci/circleci-docs)
 [![codecov](https://codecov.io/gh/tom-a-c/mermaider/branch/main/graph/badge.svg)](https://codecov.io/gh/tom-a-c/mermaider)
