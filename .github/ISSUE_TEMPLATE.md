@@ -1,6 +1,6 @@
 Please select *one* from below.
 
-- [ ] \U00002728 This is a feature request
+- [ ] :sparkles: This is a feature request
 - [ ] \U0001F41B This is a bug report
 - [ ] \U0001F914 This is a support request
 
