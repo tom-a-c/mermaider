@@ -1,12 +1,12 @@
 Please select *one* from below.
 
 - [ ] :sparkles: This is a feature request
-- [ ] \U0001F41B This is a bug report
-- [ ] \U0001F914 This is a support request
+- [ ] :bug: This is a bug report
+- [ ] :thinking: This is a support request
 
 <Please remove sections below where necessary>
 
-# \U00002728 Feature Request (remove section if it is not needed)
+# :sparkles: Feature Request (remove section if it is not needed)
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ What behaviour would you like to see?
 
 Are there any links to references of conversations about this anywhere else? Please provide these and breifly outline what was discussed. Otherwise leave this section as N/A.
 
-# \U0001F41B Bug Report (remove section if it is not needed)
+# :bug: Bug Report (remove section if it is not needed)
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ Please provide detailed steps for reproducing the bug.
 
 1. step 1
 2. step 2
-3. you get it... \U0001F609
+3. you get it... :wink:
 
 ### System Information
 
@@ -72,7 +72,7 @@ Please provide any relevant information about your setup. This is important in c
 
 Please include any relevant log snippets or files here. Be careful to redact any sensitive information.
 
-# \U0001F914 Support Request (remove section if it is not needed)
+# :thinking: Support Request (remove section if it is not needed)
 
 Please do not raise support requests as issues. Pleasue use the 'discussions' tab or the gitter chatroom.
 
