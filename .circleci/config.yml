@@ -1,17 +1,14 @@
 version: 2.1
 
-mermaider_ci_image: &mermaider_ci_image
-  - image: cimg/python:stable
-
 jobs:
   lint:
     docker:
-      - image: cimg/python:stable
+      - image: cimg/python:3.10.2
     steps:
       - run: make ci-lint
   test:
     docker:
-      - image: cimg/python:stable
+      - image: cimg/python:3.10.2
     steps:
       - run: make ci-lint
 
