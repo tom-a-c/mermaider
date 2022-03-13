@@ -5,11 +5,15 @@ jobs:
     docker:
       - image: cimg/python:3.10.2
     steps:
+      - checkout
+      - run: make ci-install
       - run: make ci-lint
   test:
     docker:
       - image: cimg/python:3.10.2
     steps:
+      - checkout
+      - run: make ci-install
       - run: make ci-lint
 
 workflows:
