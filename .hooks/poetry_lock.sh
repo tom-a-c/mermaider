@@ -3,4 +3,3 @@
 set -e
 poetry lock
 git add poetry.lock
-

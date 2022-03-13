@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
 set -e
-poetry export -f requirements.txt --without-hashes --output requirements.txt
+make freeze
 git add requirements.txt
-
