@@ -14,7 +14,7 @@ lint:
 	poetry run isort mermaider tests/
 	poetry run black mermaider tests/
 	poetry run mypy
-	poetry run prospector
+	poetry run prospector --no-autodetect
 
 .PHONY: stest
 stest: ## run tests locally without pytest output capture
@@ -51,7 +51,7 @@ ci-install: ci-setup
 ci-lint: ci-setup
 	poetry run black --check mermaider
 	poetry run mypy
-	poetry run prospector
+	poetry run prospector --no-autodetect
 
 .PHONY: ci-test
 ci-test: ci-setup
