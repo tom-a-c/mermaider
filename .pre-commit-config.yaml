@@ -1,0 +1,15 @@
+repos:
+  - repo: local
+    hooks:
+      - id: lockfile
+        name: update lockfile
+        entry: .hooks/lock.sh
+        language: script
+        files: ^pyproject\.toml$
+        stages: [commit]
+      - id: requirements
+        name: generate requirements
+        entry: .hooks/requirements.sh
+        language: script
+        files: ^pyproject\.toml$
+        stages: [commit]
