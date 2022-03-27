@@ -1,15 +1,26 @@
 repos:
   - repo: local
     hooks:
+      - id: lint
+        name: lint files
+        entry: make lint
+        language: system
+        types: [ python ]
+        stages: [ commit ]
+      - id: test
+        name: run tests
+        entry: make test
+        language: system
+        stages: [ push ]
       - id: lockfile
         name: update lockfile
-        entry: .hooks/lock.sh
+        entry: .hooks/poetry_lock.sh
         language: script
         files: ^pyproject\.toml$
         stages: [commit]
       - id: requirements
         name: generate requirements
-        entry: .hooks/requirements.sh
+        entry: .hooks/update_requirements.sh
         language: script
         files: ^pyproject\.toml$
         stages: [commit]
