@@ -1,5 +1,8 @@
 version: 2.1
 
+orbs:
+  codecov: codecov/codecov@3.0.0
+
 jobs:
   lint:
     docker:
@@ -13,8 +16,9 @@ jobs:
       - image: cimg/python:3.10.2
     steps:
       - checkout
-      - run: make ci-install
-      - run: make ci-lint
+      - run: make ci-test
+      - codecov/upload:
+          file: coverage/coverage.xml
 
 workflows:
   ci-test:

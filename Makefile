@@ -54,11 +54,11 @@ ci-lint: ci-setup
 	poetry run prospector --no-autodetect
 
 .PHONY: ci-test
-ci-test: ci-setup
+ci-test: ci-setup ci-install
 	PYTHONPATH=mermaider poetry run pytest --fulltrace \
 	--html=coverage/reports/report.xml \
 	--self-contained-html \
-	--cov=mermaider
+	--cov=mermaider \
 	--cov-report term-missing \
 	--cov-report=xml:coverage/coverage.xml \
 	--cov-report=html:coverage/html \
