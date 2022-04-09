@@ -58,7 +58,7 @@ ci-test: ci-setup
 	PYTHONPATH=mermaider poetry run pytest --fulltrace \
 	--html=coverage/reports/report.xml \
 	--self-contained-html \
-	--cov=mermaider
+	--cov=mermaider \
 	--cov-report term-missing \
 	--cov-report=xml:coverage/coverage.xml \
 	--cov-report=html:coverage/html \
