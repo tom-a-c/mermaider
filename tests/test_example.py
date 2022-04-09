@@ -1,2 +1,3 @@
 def test():
+    " "
     assert True
