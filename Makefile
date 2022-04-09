@@ -64,9 +64,6 @@ ci-test: ci-setup ci-install
 	--cov-report=html:coverage/html \
 	--junitxml=coverage/junit.xml \
 	tests
-	curl -Os https://uploader.codecov.io/latest/linux/codecov
-	chmod +x codecov
-	./codecov
 
 .PHONY: ci
 ci:	ci-clean ci-setup ci-install ci-lint ci-test
