@@ -1,3 +1,7 @@
+# Coverage files
+coverage/
+.coverage/
+
 # IDE files
 .idea/
 
