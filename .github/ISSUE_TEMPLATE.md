@@ -107,5 +107,5 @@ Are there any links to references of conversations about this anywhere else? Ple
 
 # :thinking: Support Request (remove section if it is not needed)
 
-Please do not raise support requests as issues. Please use the 'discussions' tab or the gitter chatroom.
+Please do not raise support requests as issues. Please use the 'discussions' tab.
 

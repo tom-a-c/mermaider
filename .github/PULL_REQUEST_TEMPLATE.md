@@ -1,5 +1,5 @@
 ## Description
-Motivation behind those changes are coming from the following issue(s): #<issue number>, #<issue_number>
+Motivation behind those changes are coming from the following issue(s): gh-<issue number>, gh-<issue_number>
   
 <!--- describe your changes in this section -->
 This PR applies the following changes:
@@ -23,5 +23,5 @@ This PR applies the following changes:
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
 - [ ] My change required a change to the documentation
-- [ ] I have added tests to cover my changes
+- [ ] I have added/updated tests to cover my changes
 - [ ] Test coverage has not decreased
