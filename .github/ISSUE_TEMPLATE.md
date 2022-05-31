@@ -2,9 +2,10 @@ Please select *one* from below.
 
 - [ ] :sparkles: This is a feature request
 - [ ] :bug: This is a bug report
+- [ ] :technologist: This is a request to improve developer experience)
 - [ ] :thinking: This is a support request
 
-<Please remove sections below where necessary>
+<!--Please remove sections below where necessary-->
 
 # :sparkles: Feature Request (remove section if it is not needed)
 
@@ -71,6 +72,38 @@ Please provide any relevant information about your setup. This is important in c
 ### Failure Logs
 
 Please include any relevant log snippets or files here. Be careful to redact any sensitive information.
+
+# :technologist: Improvement to Developer Experience Request (remove section if it is not needed)
+
+## Prerequisites
+
+Please answer the following questions for yourself before submitting a feature request.
+
+- [ ] Am I running the latest version?
+- [ ] Have I checked to make sure that this request has not already been filed?
+- [ ] Am I requesting the improvement to the correct repository?
+
+## What type of developer improvement request is this?
+
+Please select one from below:
+
+- [ ] A change to documentation
+- [ ] A change to the CI pipeline
+- [ ] A change to the repository configuration settings
+- [ ] A change to security
+- [ ] Other (please specify)
+
+## Current Behavior
+
+What is the current behavior? Please provide enough information for the request to be accurately triaged including any additional context.
+
+## Feature Request Description
+
+What behaviour would you like to see?
+
+## Additional References
+
+Are there any links to references of conversations about this anywhere else? Please provide these and breifly outline what was discussed. Otherwise leave this section as N/A.
 
 # :thinking: Support Request (remove section if it is not needed)
 
