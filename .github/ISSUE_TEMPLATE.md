@@ -1,8 +1,8 @@
-Please select *one* from below.
+Please select *one* from below:
 
 - [ ] :sparkles: This is a feature request
 - [ ] :bug: This is a bug report
-- [ ] :technologist: This is a request to improve developer experience)
+- [ ] :technologist: This is a request to improve developer experience
 - [ ] :thinking: This is a support request
 
 <!--Please remove sections below where necessary-->
@@ -17,9 +17,9 @@ Please answer the following questions for yourself before submitting a feature r
 - [ ] Have I checked to make sure that this feature request has not already been filed?
 - [ ] Am I requesting the feature to the correct repository?
 
-## Current Behavior
+## Current Behaviour
 
-What is the current behavior? Please provide enough information for the feature request to be accurately triaged including any additional context.
+What is the current behaviour? Please provide enough information for the feature request to be accurately triaged including any additional context.
 
 ## Feature Request Description
 
@@ -93,9 +93,9 @@ Please select one from below:
 - [ ] A change to security
 - [ ] Other (please specify)
 
-## Current Behavior
+## Current Behaviour
 
-What is the current behavior? Please provide enough information for the request to be accurately triaged including any additional context.
+What is the current behaviour? Please provide enough information for the request to be accurately triaged including any additional context.
 
 ## Feature Request Description
 
@@ -107,5 +107,5 @@ Are there any links to references of conversations about this anywhere else? Ple
 
 # :thinking: Support Request (remove section if it is not needed)
 
-Please do not raise support requests as issues. Pleasue use the 'discussions' tab or the gitter chatroom.
+Please do not raise support requests as issues. Please use the 'discussions' tab or the gitter chatroom.
 
